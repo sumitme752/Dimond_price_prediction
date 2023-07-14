@@ -1,0 +1,13 @@
+prefix=/Users/sumitkumar/Desktop/sumit_exercise/houseprice/venv
+exec_prefix=/Users/sumitkumar/Desktop/sumit_exercise/houseprice/venv
+libdir=/Users/sumitkumar/Desktop/sumit_exercise/houseprice/venv/lib
+sharedlibdir=/Users/sumitkumar/Desktop/sumit_exercise/houseprice/venv/lib
+includedir=/Users/sumitkumar/Desktop/sumit_exercise/houseprice/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
