@@ -1,4 +1,5 @@
 numpy
 pandas
 Flask
+os
 -e .
