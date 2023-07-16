@@ -1,5 +1,6 @@
 numpy
 pandas
 Flask
-os
+scikit-learn
+Seaborn
 -e .
