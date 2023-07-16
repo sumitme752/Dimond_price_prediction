@@ -48,6 +48,8 @@ class DataIngestion:
             logging.info('Exception occured at Data Ingestion stage')
             raise CustomException(e,sys)    
         
+'''        
+        
 ## Run Data Transformation
 if __name__=='__main__':
     obj = DataIngestion()
@@ -55,3 +57,5 @@ if __name__=='__main__':
     ## Run Data Transformation
     data_transformation = DataTransformation()
     train_array, test_array, _=data_transformation.initaite_data_transformation(train_data_path, test_data_path)    
+
+'''
