@@ -7,7 +7,7 @@ conda create -p venv python==3.8
 
 ## activate enviroment
 ```
-conda activate venv
+conda activate venv/
 ```
 
 ## Install all necessary liberaries
